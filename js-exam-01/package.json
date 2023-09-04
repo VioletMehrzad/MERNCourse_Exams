@@ -4,9 +4,16 @@
   "description": "Exam on sessions 01 to 11 of JavaScript",
   "main": "index.js",
   "scripts": {
+    "tailwind": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Violet Mehrzad",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "flowbite": "^1.8.1"
+  }
 }

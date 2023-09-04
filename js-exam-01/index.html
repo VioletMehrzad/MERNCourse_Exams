@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mx-auto px-3 h-screen flex justify-center items-center">
+        <div class="max-w-md bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div>
+                <img class="rounded-t-lg" src="./assets/images/full-stack-javascript-developer-at-office-4190668-3491172.png" alt="" />
+            </div>
+            <div class="p-5">
+                <div class="mb-10">
+                    <label for="text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Calculate Prime Numbers:</label>
+                    <input type="text" id="num-input" placeholder="Enter a number or use 'Generate Random Num.' button!" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                </div>
+                <div class="flex justify-between items-center gap-4">
+                    <button id="random-num-button" class="w-full text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-4">
+                        Generate Random Num.
+                    </button>
+                    <button id="prime-num-button" class="w-full text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-4">
+                        Calculate Prime Num.
+                    </button>
+                </div>
+                <button id="reset-button" class="w-full relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                    <span class="w-full relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                        Reset
+                    </span> 
+                </button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./dist/index.js"></script>
+</body>
+</html>
