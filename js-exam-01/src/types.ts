@@ -1,0 +1,1 @@
+export type PrimeNumArrayType = number[];
